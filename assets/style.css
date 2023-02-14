@@ -61,7 +61,7 @@ pre {
 }
 
 a {
-  color: var(--base-text) !important;
+  color: var(--base-text);
 }
 
 a:hover {
@@ -81,7 +81,9 @@ a:hover {
  * Images
  */
  img {
-  max-width: 100%;
+  padding: 10px;
+  width: 100%;
+  max-width: 600px;
   vertical-align: middle;
 }
 
